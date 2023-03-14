@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(cut --complement -c2- | tr -d "\n")
