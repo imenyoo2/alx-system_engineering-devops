@@ -1,0 +1,2 @@
+#!/bin/bash
+echo {a,b,c,e,f,j,k,l,m,n,o,p,q,r,s,t,v,w,x,y,z}{a,b,c,e,f,j,k,l,m,n,o,p,q,r,s,t,v,w,x,y,z} | sed 's/ /\n/g' | grep -v oo
