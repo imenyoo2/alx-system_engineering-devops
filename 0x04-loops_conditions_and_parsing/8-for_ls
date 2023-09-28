@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This script is hourse and their minutes
+
+for i in `ls`; do
+	echo $i | sed 's/.*-//'
+done
