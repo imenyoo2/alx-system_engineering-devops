@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# display informations about school file
+
+if [ -a school ]; then
+	echo "school file exists"
+	if [ $(cat school) == "" ]; then
+		echo "school file is empty"
+	else
+		echo "school file is not empty"
+	fi
+	if [ -f school ]; then
+		echo "school is a regular file"
+	fi
+else
+	echo "school file does not exists"
+fi		
