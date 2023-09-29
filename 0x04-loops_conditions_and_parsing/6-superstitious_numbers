@@ -13,10 +13,8 @@ case $i in
 	;;
 18)
 	echo "bad luck from Italy"
-	;;
-*)
-echo $i
 esac
+echo $i
 i=$((i+1))
 done
 
